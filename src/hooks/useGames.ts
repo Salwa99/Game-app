@@ -13,6 +13,7 @@ export interface Game {
     name: string,
     background_image: string,
     parent_platforms: {platform: Platform}[] //array of objects, which each bject has a particular platform of type platform
+    metacritic: number;
 }
 
 interface FetchGamesResponse {
