@@ -85,6 +85,12 @@ yarn install
 
 ### 💻 Usage
 
+to build the application, execute the following command:
+
+```sh
+npm run build
+```
+
 To run the development server, execute the following command:
 
 ```sh
