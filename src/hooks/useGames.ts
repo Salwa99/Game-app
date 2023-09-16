@@ -13,6 +13,7 @@ export interface Game {
     background_image: string,
     parent_platforms: {platform: Platform}[] //array of objects, which each bject has a particular platform of type platform
     metacritic: number;
+    rating_top: number;
 }
 
 const useGames = (gameQuery: GameQuery) => useData<Game>('/games', 
